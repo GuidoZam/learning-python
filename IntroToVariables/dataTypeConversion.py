@@ -1,27 +1,34 @@
+def describe(v1, v2):
+    return print(v1, "is of type", type(v1), " -> ", v2, "is of type", type(v2))
+
 # Converts x to an integer. base specifies the base if x is a string	
 # int(x [,base])
-print(int("2"))
+v = "4"
+describe(v, int(v))
 
 # Converts x to a long integer. base specifies the base if x is a string
 # long(x [,base] )
-
+#print(long("94349"))
 
 # Converts x to a floating-point number
 # float(x)
-
+f = "4.2"
+describe(f, float(f))
 
 # Creates a complex number
 # complex(real [,imag])
-
+c = "4.54"
+describe(c, complex(c))
 
 # Converts object x to a string representation
 # str(x)
-
+s = 97
+describe(s, str(s))
 
 # Converts object x to an expression string.
 # repr(x)
-
-
+r = {"test":3}
+describe(r, repr(r))
 
 # Evaluates a string and returns an object
 # eval(str)
