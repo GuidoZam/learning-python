@@ -37,3 +37,9 @@ value1,value2 = getTuple()
 print(getTuple())
 print(value1)
 print(value2)
+
+# Function with lambda
+def compareInts(a,b) -> bool:
+    return a == b
+
+print(compareInts(3,4))
