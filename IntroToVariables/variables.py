@@ -5,6 +5,20 @@ stringVar = "this is a string variable"
 # Explicit variable type
 s: str = "this is another string"
 
+# Strings can be multiline
+multilineVar = "This\
+is a multiline\
+string"
+
+multilineVar2 = """Also this
+is a multiline
+string"""
+
+# This will print the variable without new lines
+print(multilineVar)
+# This will print the variable with new lines
+print(multilineVar2)
+
 intVar = 42
 i: int = 4
 
