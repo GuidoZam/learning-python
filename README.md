@@ -27,3 +27,5 @@ List of the folders examples:
     - [BuiltIn scope](./Scopes/BuiltInScope.py)
     - [Global keywords](./Scopes/globalKeyword.py)
     - [Non local keywords](./Scopes/nonLocalKeyword.py)
+- [Import OS](./ImportOS/README.md)
+    - [List txt files](./ImportOS/readFilesInDirectory.py)
