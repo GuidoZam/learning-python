@@ -29,3 +29,5 @@ List of the folders examples:
     - [Non local keywords](./Scopes/nonLocalKeyword.py)
 - [Import OS](./ImportOS/README.md)
     - [List txt files](./ImportOS/readFilesInDirectory.py)
+    - [Various examples](./ImportOS/examples.py)
+    - [Simple program to handle file and directory](./ImportOS/handleFilesAndDir.py)
