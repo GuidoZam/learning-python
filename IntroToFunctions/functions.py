@@ -43,3 +43,16 @@ def compareInts(a,b) -> bool:
     return a == b
 
 print(compareInts(3,4))
+
+def functionWithDefaults(name = "John", surname = "Doe"):
+    """This is a function that shows how to use defaults
+
+    Args:
+        name (str, optional): _description_. Defaults to "John".
+        surname (str, optional): _description_. Defaults to "Doe".
+    """
+    print(f"Hi! I'm {name} {surname}.")
+
+functionWithDefaults()
+functionWithDefaults("Jane")
+functionWithDefaults("Super", "Mario")
