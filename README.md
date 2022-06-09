@@ -31,3 +31,4 @@ List of the folders examples:
     - [List txt files](./ImportOS/readFilesInDirectory.py)
     - [Various examples](./ImportOS/examples.py)
     - [Simple program to handle file and directory](./ImportOS/handleFilesAndDir.py)
+- [String format](./StringFormatting/stringFormatting.py)
