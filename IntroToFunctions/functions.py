@@ -55,4 +55,25 @@ def functionWithDefaults(name = "John", surname = "Doe"):
 
 functionWithDefaults()
 functionWithDefaults("Jane")
-functionWithDefaults("Super", "Mario")
+functionWithDefaults("Bruce", "Wayne")
+functionWithDefaults(surname="Super", name="Mario")
+
+def functionWithMultipleArguments(*foods):
+    for food in foods:
+        print(food)
+
+functionWithMultipleArguments("Strawberry", "Apple", "Banana", "Ananas")
+
+def functionWithMultipleKeyArguments(**animals):
+    for animal in animals.items():
+        print(animal)
+
+functionWithMultipleKeyArguments(Lion="Carnivore", Elephant="Herbivore", Gorilla="Omnivore")
+
+def functionMixedArguments(*foods, **animals):
+    for food in foods:
+        print(food)
+    for animal in animals.items():
+        print(animal)
+
+functionMixedArguments("Strawberry", "Apple", "Banana", Lion="Carnivore", Elephant="Herbivore")
