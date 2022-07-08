@@ -32,3 +32,4 @@ List of the folders examples:
     - [Various examples](./ImportOS/examples.py)
     - [Simple program to handle file and directory](./ImportOS/handleFilesAndDir.py)
 - [String format](./StringFormatting/stringFormatting.py)
+- [Fibonacci samples](./IntroToFunctions/fibonacci.py)
