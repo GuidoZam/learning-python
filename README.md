@@ -33,4 +33,6 @@ List of the folders examples:
     - [Simple program to handle file and directory](./ImportOS/handleFilesAndDir.py)
 - [String format](./StringFormatting/stringFormatting.py)
 - [Fibonacci samples](./IntroToFunctions/fibonacci.py)
-- [Web Server](./WebServer/SimpleGetServer.py)
+- Web Servers
+    - [Simple get server](./WebServer/SimpleGetServer.py)
+    - [Simple server](./WebServer/SimpleServer.py)
