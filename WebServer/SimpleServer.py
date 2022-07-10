@@ -14,6 +14,15 @@ class CustomServer(BaseHTTPRequestHandler):
         message = "I'm a web page!"
         self.wfile.write(bytes(message, "utf8"))
         return
+    
+    def do_POST(self):
+        self.send_response(200)
+        self.send_header('Content-type','text/html')
+        self.end_headers()
+
+        message = "Hello, World! Here is a POST response"
+        self.wfile.write(bytes(message, "utf8"))
+        return
 
 def run():
     print('Avvio del server...')
