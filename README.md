@@ -35,5 +35,8 @@ List of the folders examples:
 - [Fibonacci samples](./IntroToFunctions/fibonacci.py)
 - Web Servers
     - [Simple GET server](./WebServer/SimpleGetServer.py) with only the GET method supported
-    - [Directory server](./WebServer/DirectoryServer.py) in 3 lines of code
+    - [Directory server](./WebServer/DirectoryServer.py) in 3 lines of code, you can achieve the same result using
+
+            python3 -m http.server
+    
     - [Simple server](./WebServer/SimpleServer.py)

@@ -5,6 +5,9 @@ from http.server import HTTPServer, CGIHTTPRequestHandler
 # This server gives the ability to browse a target directory via web browser
 ##############
 
+# Instead of using this program you can also achieve the same result using
+# python3 -m http.server
+
 # Use the current directory for the server
 os.chdir('.')
 
