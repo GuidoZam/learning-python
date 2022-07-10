@@ -34,5 +34,6 @@ List of the folders examples:
 - [String format](./StringFormatting/stringFormatting.py)
 - [Fibonacci samples](./IntroToFunctions/fibonacci.py)
 - Web Servers
-    - [Simple get server](./WebServer/SimpleGetServer.py)
+    - [Simple GET server](./WebServer/SimpleGetServer.py) with only the GET method supported
+    - [Directory server](./WebServer/DirectoryServer.py) in 3 lines of code
     - [Simple server](./WebServer/SimpleServer.py)
