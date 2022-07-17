@@ -1,7 +1,4 @@
-from asyncore import read
 import os
-from posixpath import dirname
-from tkinter.tix import InputOnly
 
 def getName(message: str) -> str:
     print(message)
