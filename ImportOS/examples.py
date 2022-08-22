@@ -31,3 +31,11 @@ print(currentWorkingDirectory)
 os.chdir("../")
 currentWorkingDirectory = os.getcwd()
 print(currentWorkingDirectory)
+
+# Get the current user name
+login = os.getlogin()
+print(login)
+
+# Get the process groups ids
+groups = os.getgroups()
+print(groups)
